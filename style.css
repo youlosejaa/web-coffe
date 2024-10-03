@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.find-store {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  background-color: #006d43;
+  color: white;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-section {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.welcome-text {
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.welcome-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.read-more-btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.welcome-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 50;
+}
+
+.footer-links div {
+  text-align: center;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-media a {
+  margin: 0 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.certification img {
+  margin: 0 10px;
+  width: 50px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
